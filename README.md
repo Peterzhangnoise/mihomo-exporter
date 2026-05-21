@@ -32,18 +32,21 @@ services:
         mihomo secret
 
 举例
+```
 mihomo-exporter-windows-amd64.exe --host 127.0.0.1:9090 --secret 123456
+```
 
 ## 指标
-
-总上行|mihomo_upload_bytes_total
-总下行|mihomo_download_bytes_total
-实时上行|mihomo_upload_bps
-实时下行|mihomo_download_bps
-Exporter 状态|mihomo_exporter_up
-内存用量|mihomo_memory_usage_bytes
-当前连接数|mihomo_active_connections
-当前运行版本|mihomo_version_info
-节点延迟|mihomo_proxy_delay_ms
-节点存活|mihomo_proxy_alive
-节点选择|mihomo_proxy_selected
+| 含义 | 对应指标 |
+| ---- | ---- |
+| 总上行 | mihomo_upload_bytes_total |
+| 总下行 | mihomo_download_bytes_total |
+| 实时上行 | mihomo_upload_bps |
+| 实时下行 | mihomo_download_bps |
+| Exporter 状态 | mihomo_exporter_up |
+| 内存用量 | mihomo_memory_usage_bytes |
+| 当前连接数 | mihomo_active_connections |
+| 当前运行版本 | mihomo_version_info |
+| 节点延迟 | mihomo_proxy_delay_ms |
+| 节点存活 | mihomo_proxy_alive |
+| 节点选择 | mihomo_proxy_selected |
