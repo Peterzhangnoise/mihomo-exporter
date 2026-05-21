@@ -12,7 +12,7 @@ Exporter for mihomo metrics
 ### Docker compose
 
 目前没有发布到docker hub的打算，直接在本地编译吧
-
+```
 services:
   mihomo-exporter:
     build: .
@@ -22,7 +22,7 @@ services:
       secret: 你的mihomo密钥
     ports:
       - "9988:9988"
-
+```
 ### cli
   -host string
         mihomo host (e.g. 127.0.0.1:9090)
